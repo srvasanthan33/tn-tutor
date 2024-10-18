@@ -244,54 +244,57 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Ai Tutor For Children",
+    text: "Studying the Tamil Nadu state syllabus? This AI tutor is designed just for you! Choose your standard and get help on any topic The AI will clear your doubts based on your exact syllabus, so you can study smarter and faster",
     backgroundUrl: "assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
+    appUrl:`https://aitutorforchildren-genai.streamlit.app/`
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Concept Clarifier",
+    text: `Need a deeper understanding? The Concept
+    Clarifier works like a teacher—it won't just give
+    you answers. Instead, it guides you step-bystep to help you understand concepts fully.
+    By the end, you'll master the topic with
+    confidence!`,
     backgroundUrl: "assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
-    light: true,
+    appUrl:`https://conceptclarifier-genai.streamlit.app/`,
+    light:true
   },
   {
     id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    title: "Ai Vision Chatbot",
+    text: `Got a tough problem? With the AI Vision
+    Chatbot, you can upload pages from your
+    textbooks—whether it's math problems, physics
+    questions, or chemistry equations—and get the
+    help you need.
+    It's perfect for those tricky sections in your
+    books`,
     backgroundUrl: "assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
+    appUrl:`https://aivisionchatbot-genai.streamlit.app/`
   },
   {
     id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Llama Chatbot",
+    text: `Got questions? The Llama Chatbot is here to
+    help! Whether it's homework or general doubts,
+    ask away and get clear answers to all your
+    queries instantly.
+    It's like having a 24/7 assistant for any subject`,
     backgroundUrl: "assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
+    appUrl:`https://llamachatbot-genai.streamlit.app/`,
     light: true,
-  },
-  {
-    id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    backgroundUrl: "assets/benefits/card-5.svg",
-    iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
-  },
-  {
-    id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
-    backgroundUrl: "assets/benefits/card-6.svg",
-    iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
-  },
+
+  }
 ];
 
 export const socials = [

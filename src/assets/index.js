@@ -23,9 +23,11 @@ import background from "./background.jpg";
 import tntutor from "./tntutor.svg"
 import tntutor1 from "./tntutor1.svg"
 
+
 import curve from "./hero/curve.png";
 import robot from "./hero/robot.jpg";
 import heroBackground from "./hero/hero-background.jpg";
+import dog_hero from "./hero/dog_tutor.gif"
 
 import curve1 from "./collaboration/curve-1.svg";
 import curve2 from "./collaboration/curve-2.svg";
@@ -77,6 +79,7 @@ import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 export {
+  dog_hero,
   tntutor,
   tntutor1,
   brainwave,
