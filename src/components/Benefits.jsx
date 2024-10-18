@@ -37,7 +37,7 @@ const Benefits = () => {
                     alt={item.title}
                   />
                   <p  className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider">
-                    <a className="hover:text-red-600" href="www.google.com">View</a>
+                    
                     <a className="hover:text-red-600" href="/fafa">View</a>
                   </p>
                   <Arrow />
