@@ -90,37 +90,47 @@ export const brainwaveServicesIcons = [
 export const roadmap = [
   {
     id: "0",
-    title: "Voice recognition",
-    text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
-    date: "May 2023",
+    title: "Concept Clarifier",
+    text: `Need a deeper understanding? The Concept
+    Clarifier works like a teacher—it won't just give
+    you answers. Instead, it guides you step-bystep to help you understand concepts fully.
+    By the end, you'll master the topic with
+    confidence!`,
+    date: "-",
     status: "done",
     imageUrl: roadmap1,
     colorful: true,
+    appUrl:`https://conceptclarifier-genai.streamlit.app/`
   },
   {
     id: "1",
-    title: "Gamification",
-    text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
-    date: "May 2023",
-    status: "progress",
+    title: "Ai Vision Chatbot",
+    text: `Got a tough problem? With the AI Vision
+    Chatbot, you can upload pages from your
+    textbooks—whether it's math problems, physics
+    questions, or chemistry equations—and get the
+    help you need.
+    It's perfect for those tricky sections in your
+    books`,
+    date: "-",
+    status: "done",
     imageUrl: roadmap2,
+    appUrl:`https://aivisionchatbot-genai.streamlit.app/`
   },
   {
     id: "2",
     title: "Chatbot customization",
-    text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
-    date: "May 2023",
+    text: `Got questions? The Llama Chatbot is here to
+    help! Whether it's homework or general doubts,
+    ask away and get clear answers to all your
+    queries instantly.
+    It's like having a 24/7 assistant for any subject`,
+    date: "-",
     status: "done",
     imageUrl: roadmap3,
+    appUrl:`https://llamachatbot-genai.streamlit.app/`
   },
-  {
-    id: "3",
-    title: "Integration with APIs",
-    text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
-    date: "May 2023",
-    status: "progress",
-    imageUrl: roadmap4,
-  },
+
 ];
 
 export const collabText =
@@ -238,56 +248,43 @@ export const pricing = [
 ];
 
 export const benefits = [
-  {
-    id: "0",
-    title: "Ai Tutor For Children",
-    text: "Studying the Tamil Nadu state syllabus? This AI tutor is designed just for you! Choose your standard and get help on any topic The AI will clear your doubts based on your exact syllabus, so you can study smarter and faster",
-    backgroundUrl: "assets/benefits/card-1.svg",
-    iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
-    appUrl:`https://aitutorforchildren-genai.streamlit.app/`
-  },
+  // {
+  //   id: "0",
+  //   title: "Ai Tutor For Children",
+  //   text: "Studying the Tamil Nadu state syllabus? This AI tutor is designed just for you! Choose your standard and get help on any topic The AI will clear your doubts based on your exact syllabus, so you can study smarter and faster",
+  //   backgroundUrl: "assets/benefits/card-1.svg",
+  //   iconUrl: benefitIcon1,
+  //   imageUrl: benefitImage2,
+  //   appUrl:`https://aitutorforchildren-genai.streamlit.app/`
+  // },
   {
     id: "1",
-    title: "Concept Clarifier",
-    text: `Need a deeper understanding? The Concept
-    Clarifier works like a teacher—it won't just give
-    you answers. Instead, it guides you step-bystep to help you understand concepts fully.
-    By the end, you'll master the topic with
-    confidence!`,
-    backgroundUrl: "assets/benefits/card-2.svg",
+    title: "Sanjay S",
+    text: `Ai Developer & Project
+    Coordinator`,
+    backgroundUrl: "assets/benefits/face-1.png",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
-    appUrl:`https://conceptclarifier-genai.streamlit.app/`,
+    appUrl:`https://www.linkedin.com/in/sanjayai/`,
     light:true
   },
   {
     id: "2",
-    title: "Ai Vision Chatbot",
-    text: `Got a tough problem? With the AI Vision
-    Chatbot, you can upload pages from your
-    textbooks—whether it's math problems, physics
-    questions, or chemistry equations—and get the
-    help you need.
-    It's perfect for those tricky sections in your
-    books`,
-    backgroundUrl: "assets/benefits/card-3.svg",
+    title: "Vasanthan S R",
+    text: `Frontend Developer`,
+    backgroundUrl: "assets/benefits/face-2.png",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
-    appUrl:`https://aivisionchatbot-genai.streamlit.app/`
+    appUrl:`https://www.linkedin.com/in/vasanthan-s-r-97b842232/`
   },
   {
     id: "3",
-    title: "Llama Chatbot",
-    text: `Got questions? The Llama Chatbot is here to
-    help! Whether it's homework or general doubts,
-    ask away and get clear answers to all your
-    queries instantly.
-    It's like having a 24/7 assistant for any subject`,
-    backgroundUrl: "assets/benefits/card-4.svg",
+    title: "Naveen",
+    text: `Data Collection & Preprocessing`,
+    backgroundUrl: "assets/benefits/face-3.png",
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
-    appUrl:`https://llamachatbot-genai.streamlit.app/`,
+    appUrl:`https://www.linkedin.com/in/naveen-2025-ai/`,
     light: true,
 
   }

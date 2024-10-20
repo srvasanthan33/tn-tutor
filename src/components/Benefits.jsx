@@ -13,41 +13,43 @@ const Benefits = () => {
       <div className="container relative z-2">
         <Heading
           className="md:max-w-md lg:max-w-2xl"
-          title="Designed to simplify ai for students"
+          title="Our Team"
         />
 
         <div className="flex flex-wrap gap-10 mb-10">
           {benefits.map((item) => (
             <div
               className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem]
-              cursor-pointer hover:border hover:border-slate-100 hover:transition"
+              cursor-pointer"
               style={{
                 backgroundImage: `url(${item.backgroundUrl})`,
               }}
               key={item.id}
             >
               <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none">
-                <h5 className="h5 mb-5">{item.title}</h5>
-                <p className="body-2 mb-6 text-n-3">{item.text}</p>
-                <div className="flex items-center mt-auto">
-                  <img
+              <img
                     src={item.iconUrl}
-                    width={48}
-                    height={48}
+                    width={600}
+                    height={600}
                     alt={item.title}
+                    className="rounded-lg mt-4"
                   />
-                  <p  className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider">
+                <div className="flex flex-col justify-center items-center text-emerald-400 mx-auto mt-4">
+                  
+                  <p  className="font-code text-[1.35rem] font-bold text-n-1 uppercase tracking-wider">
                     
-                    <a className="hover:text-red-600" href="/fafa">View</a>
+                    
+                    {item.title}
                   </p>
-                  <Arrow />
+                  <h4 className="">{item.text}</h4>
+                  
                 </div>
               </div>
 
               {<GradientLight />}
 
               <a
-                className="absolute inset-0.5 bg-n-8"
+                className="absolute inset-0.5 bg-n-7 rounded-lg shadow-md"
                 style={{ clipPath: "url(#benefits)" }}
                 href={item.appUrl}
               >
@@ -64,7 +66,7 @@ const Benefits = () => {
                 </div>
               </a>
 
-              <ClipPath />
+              {/* <ClipPath /> */}
             </div>
           ))}
         </div>

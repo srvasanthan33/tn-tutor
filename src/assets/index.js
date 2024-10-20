@@ -28,6 +28,7 @@ import curve from "./hero/curve.png";
 import robot from "./hero/robot.jpg";
 import heroBackground from "./hero/hero-background.jpg";
 import dog_hero from "./hero/dog_tutor.gif"
+import frame_1 from "./hero/Frame 1.png"
 
 import curve1 from "./collaboration/curve-1.svg";
 import curve2 from "./collaboration/curve-2.svg";
@@ -68,9 +69,9 @@ import benefitCard4 from "./benefits/card-4.svg";
 import benefitCard5 from "./benefits/card-5.svg";
 import benefitCard6 from "./benefits/card-6.svg";
 import benefitIcon1 from "./benefits/icon-1.svg";
-import benefitIcon2 from "./benefits/icon-2.svg";
-import benefitIcon3 from "./benefits/icon-3.svg";
-import benefitIcon4 from "./benefits/icon-4.svg";
+import benefitIcon2 from "./benefits/face-1.png";
+import benefitIcon3 from "./benefits/face-2.png";
+import benefitIcon4 from "./benefits/face-3.png";
 import benefitImage2 from "./benefits/image-2.png";
 
 import discordBlack from "./socials/discord.svg";
@@ -79,6 +80,7 @@ import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 export {
+  frame_1,
   dog_hero,
   tntutor,
   tntutor1,
