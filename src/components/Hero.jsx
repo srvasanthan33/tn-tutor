@@ -6,7 +6,7 @@ import { heroIcons } from "../constants";
 import { ScrollParallax } from "react-just-parallax";
 import { useRef } from "react";
 
-import CompanyLogos from "./CompanyLogos";
+
 
 
 
