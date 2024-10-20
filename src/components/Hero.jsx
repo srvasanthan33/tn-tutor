@@ -1,4 +1,4 @@
-import { curve, heroBackground, robot,dog_hero } from "../assets";
+import { curve, heroBackground, robot,dog_hero,frame_1 } from "../assets";
 import Button from "./Button";
 import Section from "./Section";
 import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
@@ -52,13 +52,18 @@ const Hero = () => {
               <div className="h-[1.4rem] bg-n-10 rounded-t-[0.9rem]" />
 
               <div className="aspect-[33/40] rounded-b-[0.9rem] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490]">
+                <a href="https://aitutorforchildren-genai.streamlit.app/" target="_blank">
                 <img
-                  src={dog_hero}
-                  className="w-full scale-[1.7] translate-y-[8%] md:scale-[1] md:-translate-y-[10%] lg:-translate-y-[23%]"
+                  
+                  src={frame_1}
+                  className="w-full scale-[1.7] translate-y-[8%] md:scale-[1] md:-translate-y-[10%] lg:-translate-y-[23%] 
+               transition-transform duration-300 ease-out 
+               hover:scale-105 hover:shadow-lg hover:shadow-gray-500/50 hover:transition"
                   width={1024}
                   height={490}
                   alt="AI"
                 />
+                </a>
 
                 
 
