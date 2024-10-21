@@ -119,7 +119,7 @@ export const roadmap = [
   },
   {
     id: "2",
-    title: "Chatbot customization",
+    title: "Llama Chat",
     text: `Got questions? The Llama Chatbot is here to
     help! Whether it's homework or general doubts,
     ask away and get clear answers to all your
