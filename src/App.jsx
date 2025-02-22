@@ -17,7 +17,7 @@ function App() {
 				<Hero/>
 				{/* <Benefits/> */}
 				<Roadmap/>
-				{/*<Benefits/>*/}
+				<Benefits/>
 				<Footer/>
 			</div>
 			<ButtonGradient />
